@@ -5,11 +5,12 @@
         </head>
         <body>
             <h1>Announcements</h1>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTFsILtIGwrGKT1lARpXTwywldDH1CnEAsyxzMBOD_M0AkWulRiYBsgrPVo0jvNILLwQYOCp0wZs3z6/pubhtml?gid=710333721&amp;single=true&amp;widget=true&amp;headers=false&amp;range=J3:J10" style="width: auto; height: 300px"></iframe>
-<!--             <script>
-              function reloadSite() {
-                window.top.location.href = '<?!= SitesApp.getActivePage().getUrl(); ?>';
-              }
-            </script> -->
         </body>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTFsILtIGwrGKT1lARpXTwywldDH1CnEAsyxzMBOD_M0AkWulRiYBsgrPVo0jvNILLwQYOCp0wZs3z6/pubhtml?gid=710333721&amp;single=true&amp;widget=true&amp;headers=false&amp;range=J3:J10" style="width: auto; height: 300px"></iframe>
+        <script>
+          function reloadSite() {
+            window.top.location.href = '<?!= SitesApp.getActivePage().getUrl(); ?>';
+          }
+          setInterval(update,60000);
+        </script>
 </html>
